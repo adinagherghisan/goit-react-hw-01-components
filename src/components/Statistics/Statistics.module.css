@@ -1,0 +1,37 @@
+.statistics{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid#F5F5F5 ;
+    margin-top: 20px;
+    width: 280px;
+}
+.title{font-family:Arial, Helvetica, sans-serif;
+color: #808080;}
+.list{display: flex;
+flex-direction: row;
+width: 100%;
+margin: 0 auto;
+}
+.list li{list-style-type: none;
+gap: 5px}
+.item{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 10px;
+}
+.item:first-child{background-color: aqua;}
+.item:nth-child(2){background-color:purple;}
+.item:nth-child(3){background-color: magenta;}
+.item:last-child{background-color: turquoise;}
+ .percentage{color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;}
+ .label{color: #F5F5F5;
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+font-size: 13px;}
+ul.list{padding-left: 0;}
